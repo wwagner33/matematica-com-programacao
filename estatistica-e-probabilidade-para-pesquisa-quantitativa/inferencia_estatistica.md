@@ -181,17 +181,20 @@ Vamos construir um intervalo de confiança para a média e visualizar os resulta
 
 Usamos jStat.mean(dados) para calcular a média amostral.
 Usamos jStat.stdev(dados, true) para calcular o desvio padrão amostral.
-Determinando o Valor Crítico t:
+Determinando o Valor Crítico _t_:
 
-Usamos jStat.studentt.inv para encontrar o valor crítico da distribuição t com n - 1 graus de liberdade.
+Usamos **jStat.studentt.inv** para encontrar o valor crítico da distribuição t com _n - 1_ graus de liberdade.
 Calculando a Margem de Erro e os Limites do Intervalo de Confiança:
 
 A margem de erro é calculada multiplicando o valor crítico t pelo erro padrão da média.
-Visualizando com Plotly:
+
+**Visualizando com Plotly:**
 
 Plotamos os dados e adicionamos linhas verticais nos limites inferior e superior do intervalo de confiança.
 
 ## 5.5. Exercícios
-Realize um teste t de Student para verificar se a média de um conjunto de dados é significativamente diferente de um valor hipotético. Utilize um nível de significância de 5%. Use os dados: [18, 20, 22, 19, 21, 20, 23, 19, 18, 22] e média hipotética de 20.
+Realize um teste t de Student para verificar se a média de um conjunto de dados é significativamente diferente de um valor hipotético. Utilize um nível de significância de 5%. Use os dados: `[18, 20, 22, 19, 21, 20, 23, 19, 18, 22]` e média hipotética de **20**.
 
-Construa um intervalo de confiança de 99% para a média de uma amostra com os dados: [22, 24, 20, 23, 25, 24, 26, 27, 23, 22]. Calcule a margem de erro e os limites do intervalo.
+Construa um intervalo de confiança de 99% para a média de uma amostra com os dados: `[22, 24, 20, 23, 25, 24, 26, 27, 23, 22]`. Calcule a margem de erro e os limites do intervalo.
+
+[Voltar ao Índice Principal](indice.md)
